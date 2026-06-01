@@ -13,8 +13,11 @@
 ### Quick Install
 
 ```bash
-# Install via skills.sh
-skills.sh install init-frontend-rules --from JYUCHENCODING/init-frontend-rules
+# Install from GitHub (recommended)
+npx skills add JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
+
+# Or with full URL
+npx skills add https://github.com/JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
 ```
 
 ### What It Does
@@ -151,8 +154,11 @@ init-frontend-rules/
 ### 快速安装
 
 ```bash
-# 通过 skills.sh 安装
-skills.sh install init-frontend-rules --from JYUCHENCODING/init-frontend-rules
+# 从 GitHub 安装（推荐）
+npx skills add JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
+
+# 或使用完整 URL
+npx skills add https://github.com/JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
 ```
 
 ### 功能概述
