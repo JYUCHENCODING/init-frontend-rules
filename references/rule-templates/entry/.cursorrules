@@ -1,0 +1,16 @@
+# Cursor Rules
+
+本项目 AI 编码规则位于 `.agents/rules/` 目录。
+
+## 入口
+
+详见 [AGENTS.md](./AGENTS.md) — 包含完整规则索引和阅读顺序。
+
+## 速查
+
+- 沟通语言：中文
+- 最小改动原则：不修改无关代码
+- 组件：PascalCase，单文件不超过 500 行
+- 样式：嵌套不超过 3 层，禁止 `&` 拼接类名
+- 提交：`feat(scope): description`
+- 安全：不硬编码密钥，不用 `v-html`/`dangerouslySetInnerHTML`
