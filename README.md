@@ -13,11 +13,14 @@
 ### Quick Install
 
 ```bash
-# Install from GitHub (recommended)
+# GitHub shorthand (recommended)
 npx skills add JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
 
-# Or with full URL
+# Full HTTPS URL
 npx skills add https://github.com/JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
+
+# SSH (for users behind firewalls / in China)
+npx skills add git@github.com:JYUCHENCODING/init-frontend-rules.git --skill init-frontend-rules
 ```
 
 ### What It Does
@@ -154,11 +157,14 @@ init-frontend-rules/
 ### 快速安装
 
 ```bash
-# 从 GitHub 安装（推荐）
+# GitHub 简写（推荐）
 npx skills add JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
 
-# 或使用完整 URL
+# 完整 HTTPS URL
 npx skills add https://github.com/JYUCHENCODING/init-frontend-rules --skill init-frontend-rules
+
+# SSH（国内用户 / 防火墙后推荐）
+npx skills add git@github.com:JYUCHENCODING/init-frontend-rules.git --skill init-frontend-rules
 ```
 
 ### 功能概述
